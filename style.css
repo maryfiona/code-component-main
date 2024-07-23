@@ -1,55 +1,46 @@
 
-
-body, html {
-    height: 100%;
-    margin: 0;
+   body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
   }
   
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height:80%;
-    width: 80%;
-
+  .outer-box {
+    background-color: white;
+    padding: 13px;
+    border-radius: 10px;
   }
   
   .box {
-    width: 300px;
-    border-radius: 10px;
+    width: 300px; 
+    height: 400px; 
+    border-radius: 8px; 
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(30, 165, 59, 0.1);
- 
- 
+    display: flex;
+    flex-direction: column;
   }
   
-  .top-section {
+  .box-top {
+    height: 60%; 
     background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
-     border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    color: white; 
   }
   
   .scan-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px; 
+    max-width: 80%;
+    max-height: 80%;
   }
   
-  .bottom-section {
+  .box-bottom {
+    height: 30%; 
     background-color: white;
-    padding: 20px;
+     color: black; 
     text-align: center;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
   }
   
